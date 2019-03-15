@@ -15,6 +15,11 @@
         <input name = "submit" type = "submit" value="login" class="btn btn-primary" />
         <div class = "text-center text-error">
             <?php echo $error; ?>
-            
+        </div>
+    </form>
+</div>
+
+<script src = "<?php echo base_url() ?>asset/bootstrap/bootstrap.js"></script>
+<script src = "<?php echo base_url() ?>asset/bootstrap/jquery-1.11.0.js"></script>
 </body>
 </html>
